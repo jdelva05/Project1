@@ -1,2 +1,2 @@
-# Project1
+# Hybrid and Adaptive Sorting Algorithms
 Hybrid Algorithm
