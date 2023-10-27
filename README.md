@@ -56,7 +56,7 @@ Python's list.sort():
 
 50,000 elements: 0.00832s (approximately 8.32ms)
 
-Memory Usage:,
+Memory Usage:<br>
 Hybrid QuickSort:
 
 The memory consumption was negligible for most input sizes, with occasional spikes (0.0039MB or 3.9KB).
