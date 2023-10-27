@@ -47,3 +47,17 @@ Python's list.sort():<br>
 Memory Usage:<br>
 Hybrid QuickSort:<br>
 The memory consumption was negligible for most input sizes, with occasional spikes (0.0039MB or 3.9KB).
+
+## Performance discussion
+Execution Time: For all tested input sizes, the Hybrid QuickSort's performance is consistently outperformed by Python's built-in list.sort() method. The performance difference is evidence of how well-optimized Python's built-in methods are.
+
+Memory Usage: The Hybrid QuickSort's small memory footprint for the tested input sizes is one of its redeeming qualities. Such a feature might be essential in settings where memory is limited.
+
+## Theoretical analysis
+Algorithm Complexity: In the worst scenario, the performance of the traditional QuickSort algorithm can deteriorate to O(n^2). In an effort to address this, Hybrid QuickSort switches when sublists fall below a certain threshold to Insertion Sort, which can be more effective for small lists. Since Insertion Sort is faster for smaller lists, this should theoretically result in an optimization, but the results show that there is still room for improvement.
+
+Optimization Issues: The benchmarking makes clear the issues that arise when trying to match or even better the performance of highly optimized built-in functions for developers.
+
+Memory Efficiency: The Hybrid QuickSort's low memory usage, even with the trade-offs in time performance, supports the notion that different algorithms can have different strengths and that time efficiency is not the only important metric.
+
+In conclusion, the Hybrid QuickSort's memory efficiency is impressive even though it doesn't perform any faster than Python's list.sort() in terms of execution time. The exercise offers insightful knowledge about the subtleties of algorithm design, optimization, and the practical applications of theoretical benefits.
