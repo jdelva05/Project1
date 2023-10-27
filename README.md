@@ -27,36 +27,23 @@ Hybrid Algorithm
 A hybrid algorithm that combines the Insertion Sort and QuickSort algorithms. The plan is to use Insertion Sort for smaller portions of the array (when the array size is less than a threshold) and QuickSort for larger portions of the array.
 
 ## Benchmarking results
-Execution Time:
-Hybrid QuickSort:
+Execution Time:<br>
+Hybrid QuickSort:<br>
+100 elements: 0.000098s (approximately 0.1ms)<br>
+500 elements: 0.000636s (approximately 0.64ms)<br>
+1,000 elements: 0.00141s (approximately 1.41ms)<br>
+5,000 elements: 0.00835s (approximately 8.35ms)<br>
+10,000 elements: 0.0223s (approximately 22.3ms)<br>
+50,000 elements: 0.2126s (approximately 213ms)<br>
 
-100 elements: 0.000098s (approximately 0.1ms)
-
-500 elements: 0.000636s (approximately 0.64ms)
-
-1,000 elements: 0.00141s (approximately 1.41ms)
-
-5,000 elements: 0.00835s (approximately 8.35ms)
-
-10,000 elements: 0.0223s (approximately 22.3ms)
-
-50,000 elements: 0.2126s (approximately 213ms)
-
-Python's list.sort():
-
-100 elements: 0.0000119s (approximately 0.012ms)
-
-500 elements: 0.000082s (approximately 0.082ms)
-
-1,000 elements: 0.000111s (approximately 0.111ms)
-
-5,000 elements: 0.000618s (approximately 0.618ms)
-
-10,000 elements: 0.00134s (approximately 1.34ms)
-
-50,000 elements: 0.00832s (approximately 8.32ms)
+Python's list.sort():<br>
+100 elements: 0.0000119s (approximately 0.012ms)<br>
+500 elements: 0.000082s (approximately 0.082ms)<br>
+1,000 elements: 0.000111s (approximately 0.111ms)<br>
+5,000 elements: 0.000618s (approximately 0.618ms)<br>
+10,000 elements: 0.00134s (approximately 1.34ms)<br>
+50,000 elements: 0.00832s (approximately 8.32ms)<br>
 
 Memory Usage:<br>
-Hybrid QuickSort:
-
+Hybrid QuickSort:<br>
 The memory consumption was negligible for most input sizes, with occasional spikes (0.0039MB or 3.9KB).
