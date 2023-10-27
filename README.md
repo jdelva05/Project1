@@ -62,4 +62,5 @@ Optimization Issues: The benchmarking makes clear the issues that arise when try
 
 Memory Efficiency: The Hybrid QuickSort's low memory usage, even with the trade-offs in time performance, supports the notion that different algorithms can have different strengths and that time efficiency is not the only important metric.
 
+## Conclusion
 In conclusion, the Hybrid QuickSort's memory efficiency is impressive even though it doesn't perform any faster than Python's list.sort() in terms of execution time. The exercise offers insightful knowledge about the subtleties of algorithm design, optimization, and the practical applications of theoretical benefits.
