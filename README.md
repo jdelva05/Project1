@@ -26,7 +26,7 @@ Hybrid Algorithm
 ## Algorithm Description
 A hybrid algorithm that combines the Insertion Sort and QuickSort algorithms. The plan is to use Insertion Sort for smaller portions of the array (when the array size is less than a threshold) and QuickSort for larger portions of the array.
 
-<img width="487" alt="Screenshot 2023-10-27 at 2 39 00 PM" src="https://github.com/redbolt101/Project1/assets/132689188/c4f9c5ae-2faa-4731-ae7b-8d0b24070f15">
+<img width="487" alt="Screenshot 2023-10-27 at 2 39 00 PM" src="https://github.com/redbolt101/Project1/assets/132689188/195abb85-d29c-4907-9e72-19e0796a7fc2">
 
 ## Benchmarking results
 Execution Time:<br>
