@@ -50,7 +50,7 @@ Memory Usage:<br>
 Hybrid QuickSort:<br>
 The memory consumption was negligible for most input sizes, with occasional spikes (0.0039MB or 3.9KB).
 
-<img width="1336" alt="Screenshot 2023-10-27 at 2 31 40 PM" src="https://github.com/redbolt101/Project1/assets/132689188/6cdc71e0-6e4f-40fe-b381-25dc114a53dc">
+<img width="1329" alt="Screenshot 2023-10-27 at 11 13 09 PM" src="https://github.com/redbolt101/Project1/assets/132689188/93f4fae6-ce13-46bd-999c-aad10b1aa24e">
 
 ## Performance discussion
 Execution Time: For all tested input sizes, the Hybrid QuickSort's performance is consistently outperformed by Python's built-in list.sort() method. The performance difference is evidence of how well-optimized Python's built-in methods are.
